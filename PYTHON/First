@@ -35,4 +35,17 @@ Backslash character-> \n-> to start new line
                       print('C:\\Users\\tmkin\\notes.txt')
                       print(r'C:\Users\tmkin\notes.txt')
 
+Operator Precedence: Multiplication and divison have same precedence
+                     Addition and substraction is of same precedence
+indexing -> OUTPUT->  parrot='PAqROT'
+            print(parrot[3])
+            o/p-> R
+Negative indexing-> -1 means that we have to count the index from the end of the string.
+                    we can obtain the index by substracting it with the length of the string.
+
+Slice: Last index not included.                     
+      parrot="Norwegian Blue"
+      print(parrot[0:6])
+      
+
             
