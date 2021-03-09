@@ -10,4 +10,29 @@ What is py? 1) Py is object-oriented, interpreted language that's easy to use
             2) Runs on many operating systems including mac,linux,windows.
             3) Py supports basic data types such as numbers and strings , as well as more complex types like lists and dictionary that can be great simplify 
                data-processing.
+print('Hello,World!')
+print()-> 1) print is the function in py.
+          2) which takes the things which we want to print in paranthesis.
+          3) Here we have passed a strig literals (A string literals is the sequence of characters)
+          4) It works out the result of our arithmetic expression
+LITERAL-> value of some type. Example 1,2 or about tring literals it is "Hello! World"
+Function-> A name of block of code that we can call, by using its name. 
+           Example -> print is a built in function. 
+           In py, all function return a value.
+Agrument-> Value which is passed as an parameter with the function.
+return value-> value that a function return.
+
+String -> + sign is used for concatination. 
+          How to take name as an input and display it? using input function which takes the value as an input and return value to an variable.
+            iname=input('Please enter name')
+            print("Dear"+" "+iname)
+
+Backslash character-> \n-> to start new line
+                      \t-> to give the tab space
+                      print('This\n is \n fun');
+                      # if we want to print the path
+                      print(C:\Users\tmkin\notes.txt)-> it will take \u,\t,\n . So to avoid we can use double backslash or r in the front.
+                      print('C:\\Users\\tmkin\\notes.txt')
+                      print(r'C:\Users\tmkin\notes.txt')
+
             
