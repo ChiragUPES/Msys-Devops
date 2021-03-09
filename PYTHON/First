@@ -1,2 +1,13 @@
 Python version-> python --version
 PIP install
+SDK(Software Development Kit)-> tools we need to write a program
+                                in py sdk, we have interprter that understand py code and execute it.
+                                we also have a debugger 
+                                it also includes standard libraray
+We are using intellij-idea. 
+VCS(Version Control System)-> If we want to fetch the project from git so we can easily fetch them.
+What is py? 1) Py is object-oriented, interpreted language that's easy to use
+            2) Runs on many operating systems including mac,linux,windows.
+            3) Py supports basic data types such as numbers and strings , as well as more complex types like lists and dictionary that can be great simplify 
+               data-processing.
+            
