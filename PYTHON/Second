@@ -1,1 +1,6 @@
+Slicng: print(string[:6]) means starting from 0 to 6(6 is excluded)
+        print(string[6:]) means 6 se sara
+        print(string[:]) means starts at the beginning and ends t the end.
+        
+
 
