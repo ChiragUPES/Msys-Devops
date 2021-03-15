@@ -1,0 +1,21 @@
+PEP8-> basically style guide for python
+Python3 has some features which are not available in py2.br
+for debugging we can add break points. So for adding a break points we can just simply click over it. And we can also add conditions to the break by simply
+right click on it and add conditions.
+
+for (condition):
+  if:
+    /////
+    break
+else:    
+  else statement will execute only if the loop terminates normally. if it break than else will not executed.
+Summary:
+1) indentation is used for identfying which line ofcode belongs to which group.
+2) if else sttement for condition
+3) for loop: in range-> used when we know in advance how many time it will execute.
+4) while loop are generlly used when we dont know exactly how many times loop will execute.
+5) continue and break to interruput the normal flow of execution.
+6) different use of else keyword as shown just above the summary.
+7) About PEP8
+8) Guessing game
+9) Taking the string as an input. using input() function.
