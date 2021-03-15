@@ -1,0 +1,47 @@
+
+Sequence type-> list,tuples,range
+sequence is ordered collections of items.
+Main difference bw strings and lists are: strings are immutable(can not change it) while lists are mutable(can change it).
+immutable in py-> int,float,bool,string (chnages are not done in the same new ones is created)
+mutable-> list,dict,set,bytearray (chnages are done in the same ones without creating into new ones) 
+id gives the address value of the variable.
+if we want to change the value in immutabe than the object will destroyed and recreated. We can check the address of the variable using id.
+For exmple:
+res="Hello"
+print(id(res))
+res+=",Chirag"
+print(id(res))
+output-> 139861439759344
+         139861438753392
+but in mutable if we change than the id remain unchanged.
+For example: arr=["a","b","c","d","e","f"]
+print(id(arr))
+arr+=["g"]
+print(id(arr))
+output: 140159119464640
+        140159119464640
+min,max,len,count function in list.
+print("mississippi".count("iss")) //op-> 2
+append method can be used to add new item into the list.
+Iterating over the list:
+enumerate returns each item with its index return. for index,value in enemurate(number). first value is index value and second is the value item.
+for index,value in enumerate("abcdefgh"):
+    print(index,value)
+op-> 0 a
+1 b
+2 c
+3 d
+4 e
+5 f
+6 g
+7 h
+
+Removing item from list remove() method is used.
+how to sort a list? list.sort() or in the reverse order it is list.sort(reverse=True)
+str()-> convert the value into the string
+
+What is the diiference bw sort and sorted? sorted return the new list. that's why we have to asign it in the another variable and it will not do any changes in 
+the original list. but sort will never return anything and perform the changes in the original list only.
+sorted(numbers)
+numbers.sort()
+how to delete i list? del data[index]
