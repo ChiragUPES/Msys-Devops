@@ -45,3 +45,9 @@ the original list. but sort will never return anything and perform the changes i
 sorted(numbers)
 numbers.sort()
 how to delete i list? del data[index]
+
+TUPLES:
+Tuples are just like strings. They can not be changed. They are immutable
+We can use paranthesis instead of squae brackets for tuples.
+t=("a","b","c")
+print(t)
